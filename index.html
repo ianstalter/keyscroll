@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Creating a Custom jQuery Plugin</title>
+    <link type="text/css" rel="stylesheet" href="jquery.keyscroll.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.keyscroll.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('ul#my-list').keyscroll();
+    });
+    </script>
+</head>
+
+<body>
+
+   <ul class ="scrolllist" id="my-list"><li>   
+      <input value="john  - " style="border:none;" class="view">
+    </li>
+    <li> 
+      <input value="ted  - " style="border:none;" class="view">
+    </li>
+    <li> 
+      <input value="alfred  - " style="border:none;" class="view">
+    </li>
+    <li> 
+      <input value="thomas  - " style="border:none;" class="view">
+    </li>
+    <li>    
+      <input value="obama  - " style="border:none;" class="view">
+    </li>
+    <li> 
+      <input value="michael  - " style="border:none;" class="view">
+    </li>
+    <li> 
+      <input value="Click to edit  - " style="border:none;" class="view">
+    </li>
+   </ul>
+
+</body>
+</html>
